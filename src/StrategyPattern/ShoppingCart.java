@@ -10,7 +10,6 @@ public class ShoppingCart {
             paymentStrategy.processPayment(amount);
     }
 
-
     public void setPaymentStrategy(PaymentStrategy paymentStrategy) { // Point 4 from the Task.
         this.paymentStrategy = paymentStrategy;
     }
