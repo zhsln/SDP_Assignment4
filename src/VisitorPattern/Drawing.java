@@ -12,8 +12,7 @@ public class Drawing {
 
     public void calculateAreas() {
         AreaCalculator calculator = new AreaCalculator();
-        for (Shape shape : shapes) {
+        for (Shape shape : shapes)
             shape.accept(calculator);
-        }
     }
 }
